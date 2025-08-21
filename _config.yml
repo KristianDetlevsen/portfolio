@@ -1,2 +1,4 @@
 title: Kristians portefølje
 theme: jekyll-theme-midnight
+url: "https://kristiandetlevsen.github.io"
+baseurl: "/portfolio" 
