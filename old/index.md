@@ -83,3 +83,5 @@ _"Those who do not learn from history are doomed to repeat it." - George Santaya
 .pager{display:flex;align-items:center;justify-content:space-between;margin:1.2rem 0 .4rem}
 .pager .page-info{opacity:.8}
 </style> -->
+
+<p><a href="{{ '/page2/' | relative_url }}">Test side 2 →</a></p>
