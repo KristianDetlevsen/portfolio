@@ -1,0 +1,17 @@
+/* Strammere luft under menuen */
+section {
+  margin-top: 20px !important;   /* var 70px */
+  /* padding-top: 20px;  // valgfrit, hvis du også vil have lidt polstring */
+}
+
+/* Lidt mindre luft i titelfeltet (øverst under farvebåndet) */
+#title {
+  margin-bottom: 8px;            /* var ret stor i temaet */
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+/* Hvis din egen topmenu har ekstra afstand, kan du også justere den */
+.site-menu {
+  margin-bottom: 8px;            /* skru evt. ned/ op her */
+}
