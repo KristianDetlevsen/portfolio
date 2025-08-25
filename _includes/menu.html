@@ -1,0 +1,83 @@
+<nav class="site-menu">
+  <div class="menu-inner">
+    <a class="brand" href="{{ "/" | relative_url }}">Hjem</a>
+    <ul class="menu-links">
+      <li><a href="{{ "/spiludvikling" | relative_url }}"
+             class="{% if page.url contains '/spiludvikling' %}active{% endif %}">Spiludvikling</a></li>
+      <li><a href="{{ "/ai" | relative_url }}"
+             class="{% if page.url contains '/ai' %}active{% endif %}">AI og Machine Learning</a></li>
+      <li><a href="{{ "/blog" | relative_url }}"
+             class="{% if page.url == '/blog/' or page.layout == 'post' %}active{% endif %}">Blog</a></li>
+      <li><a href="{{ "/projekt" | relative_url }}"
+             class="{% if page.url contains '/projekt' %}active{% endif %}">Projekt</a></li>
+    </ul>
+  </div>
+</nav>
+
+<style>
+/* ====== Topmenu (Midnight-venlig) ====== */
+.site-menu{
+  /* hvis du vil have den klistret i toppen, fjern kommentaren herunder */
+  /* position: sticky; top: 0; z-index: 50; */
+  background: rgba(255,255,255,.05);
+  backdrop-filter: saturate(120%) blur(4px);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  margin: 0 0 1.25rem 0;
+}
+.site-menu .menu-inner{
+  max-width: 900px;      /* tilpas hvis din content-bredde er anderledes */
+  margin: 0 auto;
+  padding: .6rem .9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+.site-menu .brand{
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: .2px;
+  opacity: .95;
+}
+.site-menu .brand:hover{ opacity: 1; text-decoration: underline; }
+
+.site-menu .menu-links{
+  list-style: none; margin: 0; padding: 0;
+  display: flex; gap: 1.1rem; align-items: center;
+}
+.site-menu .menu-links a{
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 600;
+  padding: .35rem .4rem;
+  border-radius: .5rem;
+  display: inline-block;
+  opacity: .9;
+  transition: opacity .15s ease, background-color .15s ease, box-shadow .15s ease;
+}
+.site-menu .menu-links a:hover{
+  opacity: 1;
+  background: rgba(255,255,255,.06);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.08);
+}
+
+/* Aktiv side – grøn accent matcher dine XP-bars (#22c55e) */
+.site-menu .menu-links a.active{
+  background: rgba(34,197,94,.18);
+  box-shadow: inset 0 0 0 1px rgba(34,197,94,.35);
+  color: #e9fff1;
+}
+
+/* Responsiv: wrap links på smalle skærme */
+@media (max-width: 560px){
+  .site-menu .menu-inner{
+    flex-wrap: wrap;
+    gap: .5rem .75rem;
+  }
+  .site-menu .menu-links{
+    flex-wrap: wrap;
+    gap: .5rem .6rem;
+  }
+}
+</style>
