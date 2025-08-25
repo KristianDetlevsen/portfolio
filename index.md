@@ -9,12 +9,14 @@ Hej! Mit navn er Kristian og jeg dokumenterer her min læring på 4. semester af
 I toppen af siden finder du links til mine tanker omkring mine to valgfag samt en projektbeskrivelse.
 Herunder findes min blog, som jeg løbende opdaterer.
 
+<hr>
+
 # Blog 📝
 
 _"Those who do not learn from history are doomed to repeat it." - George Santayana_
 
 <ul class="post-list">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <li class="post-item">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <small>{{ post.date | date: "%d.%m.%Y" }}</small>
@@ -23,6 +25,27 @@ _"Those who do not learn from history are doomed to repeat it." - George Santaya
     </li>
   {% endfor %}
 </ul>
+
+<nav class="pager">
+  {% if paginator.previous_page %}
+    <a class="prev" href="{{ paginator.previous_page_path | relative_url }}">← Nyere indlæg</a>
+  {% endif %}
+  <span class="page-info">Side {{ paginator.page }} af {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a class="next" href="{{ paginator.next_page_path | relative_url }}">Ældre indlæg →</a>
+  {% endif %}
+</nav>
+
+<!-- <ul class="post-list">
+  {% for post in site.posts %}
+    <li class="post-item">
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <small>{{ post.date | date: "%d.%m.%Y" }}</small>
+      <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+      <a class="readmore" href="{{ post.url | relative_url }}">Læs mere →</a>
+    </li>
+  {% endfor %}
+</ul> -->
 
 <!-- <ul class="post-list">
   {% for post in paginator.posts %}

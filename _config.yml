@@ -5,6 +5,5 @@ baseurl: "/portfolio"
 
 plugins:
   - jekyll-paginate
-
-paginate: 10
-paginate_path: "/page:num"
+paginate: 5
+paginate_path: "/page:num/"
