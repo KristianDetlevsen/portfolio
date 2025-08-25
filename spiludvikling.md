@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Spiludvikling"
 permalink: /spiludvikling/
 ---
 
 # Spiludvikling - mine læringsmål og progressionsbarer 🕹️
 
-"Are you not entertained? Are you not entertained? Is this not why you are here?" - Maximus Decimus Meridius (Gladiator)
+*"Are you not entertained? Are you not entertained? Is this not why you are here?" - Maximus Decimus Meridius (Gladiator)*
 
 Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en enkel **progressionsbar** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt hen ad vejen og skriver et blogindlæg, når jeg rykker en bar.
 
