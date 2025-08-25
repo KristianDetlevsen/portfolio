@@ -21,16 +21,16 @@
   /* position: sticky; top: 0; z-index: 100; */
   background: rgba(255,255,255,.05);
   border-bottom: 1px solid rgba(255,255,255,.08);
-  margin: 0;                     /* ingen luft: smelter sammen med titlen */
+  /* margin: 0;                     ingen luft: smelter sammen med titlen */
 }
 
 .site-menu .menu-inner{
   max-width: 900px;              /* matcher indholdsbredde */
   margin: 0 auto;
-  padding: .35rem .6rem;         /* kompakt højde */
+  padding: .7rem 1rem;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 1.4rem;
 }
 
@@ -45,17 +45,17 @@
 
 .site-menu .menu-links{
   list-style: none;
-  margin: 0;
+  margin: 0 0 0 auto;
   padding: 0;
   display: flex;
-  gap: 1.2rem;
+  gap: 1.4rem;
 }
 
 .site-menu .menu-links a{
   color: #f2f2f2;
   text-decoration: none;
   font-weight: 600;
-  padding: .25rem .35rem;
+  padding: .35rem .5rem;
   border-radius: .3rem;
   opacity: .9;
   transition: opacity .15s ease, background-color .15s ease, box-shadow .15s ease;
