@@ -13,3 +13,4 @@ Herunder finder du links til mine tanker omkring mine to valgfag samt min blog, 
 - [Spiludvikling]({{ "/spiludvikling" | relative_url }})
 - [AI og Machine Learning]({{ "/ai" | relative_url }})
 - [Blog]({{ "/blog" | relative_url }})
+- [Projekt]({{ "/projekt" | relative_url }})
