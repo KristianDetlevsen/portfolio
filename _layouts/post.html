@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="post">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">{{ page.date | date: "%d.%m.%Y" }}</p>
+  <div class="content">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+.post h1{margin-bottom:.2rem}
+.post .meta{opacity:.75;margin-bottom:.8rem}
+.post .content img{max-width:100%}
+</style>
