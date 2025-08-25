@@ -6,20 +6,37 @@ permalink: /spiludvikling/
 
 # Spiludvikling - mine læringsmål og progressionsbarer 🕹️
 
-*"Are you not entertained? Are you not entertained? Is this not why you are here?" - Maximus Decimus Meridius (Gladiator)*
+_"Are you not entertained? Are you not entertained? Is this not why you are here?" - Maximus Decimus Meridius (Gladiator)_
 
 Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en enkel **progressionsbar** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt hen ad vejen og skriver et blogindlæg, når jeg rykker en bar.
 
 > Tip: For at give +10% på et mål, skifter jeg ét felt fra grå til grøn 🎯
 
 <style>
-/* Minimal, side-lokal stil til XP-barer */
-.xp { font: 600 0.95rem/1.4 system-ui, sans-serif; margin: 1.25rem 0; }
-.xp .label { margin-bottom: .35rem; }
-.xp table { border-collapse: collapse; width: 100%; max-width: 720px; }
-.xp td { width: 10%; height: 26px; background: #eee; border: 1px solid #fff; }
-.xp td.filled { background: #22c55e; }  /* grøn = “optjent XP” */
-.xp .meta { opacity: .85; font-weight: 500; margin-top: .35rem; }
+/* XP-bars – mørkt tema (jekyll-theme-midnight venlig) */
+.xp{font:600 .95rem/1.4 system-ui,sans-serif; margin:1.1rem 0}
+.xp .label{margin-bottom:.25rem}
+.xp .desc{opacity:.9; margin-bottom:.4rem}
+
+/* Linjen med bar + tekst */
+.xp .barline{display:flex; align-items:center; gap:.6rem}
+
+/* Selve “10 klodser”-baren */
+.xp table{border-collapse:separate; border-spacing:0; width:100%; max-width:720px}
+.xp td{
+  width:10%; height:24px;
+  background:rgba(255,255,255,.10);           /* matcher mørk baggrund */
+  border-right:1px solid rgba(255,255,255,.06);
+}
+.xp td:first-child{border-top-left-radius:6px; border-bottom-left-radius:6px}
+.xp td:last-child{border-right:none; border-top-right-radius:6px; border-bottom-right-radius:6px}
+
+/* Fyldte felter (du ændrer bare class="filled") */
+.xp td.filled{background:#22c55e}              /* grøn standard */
+/* .xp.game-engine td.filled{background:#34d399}  /* kategori farve-eksempel */
+
+/* Teksten lige ved siden af baren */
+.xp .meta{opacity:.85; font-weight:600; margin:0; white-space:nowrap}
 </style>
 
 <!-- SÅDAN BRUGER DU EN BAR:
@@ -31,11 +48,14 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
 <div class="xp game-engine">
   <div class="label">Mål 1 — Forstå spilmotorer</div>
   <div class="desc">Jeg kan forklare de grundlæggende principper i en spilmotor (game loop, scenes, assets, scripting, fysik, rendering) og vise det i Unity.</div>
-  <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
-  </tr></table>
-  <div class="meta">0% (0/10)</div>
+
+  <div class="barline">
+    <table><tr>
+      <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+      <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    </tr></table>
+    <div class="meta">0% (0/10)</div>
+  </div>
 </div>
 
 <!-- 2) BRUG AF UNITY TIL 2D -->
