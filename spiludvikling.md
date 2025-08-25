@@ -13,30 +13,28 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
 > Tip: For at give +10% på et mål, skifter jeg ét felt fra grå til grøn 🎯
 
 <style>
-/* XP-bars – mørkt tema (jekyll-theme-midnight venlig) */
+/* XP-bar (midnight tema) */
 .xp{font:600 .95rem/1.4 system-ui,sans-serif; margin:1.1rem 0}
 .xp .label{margin-bottom:.25rem}
-.xp .desc{opacity:.9; margin-bottom:.4rem}
+.xp .desc{opacity:.9; margin-bottom:.35rem}
 
-/* Linjen med bar + tekst */
-.xp .barline{display:flex; align-items:center; gap:.6rem}
-
-/* Selve “10 klodser”-baren */
-.xp table{border-collapse:separate; border-spacing:0; width:100%; max-width:720px}
+.xp table{border-collapse:separate; border-spacing:0; width:100%; max-width:720px; margin:0}
 .xp td{
   width:10%; height:24px;
-  background:rgba(255,255,255,.10);           /* matcher mørk baggrund */
+  background:rgba(255,255,255,.10);
   border-right:1px solid rgba(255,255,255,.06);
 }
 .xp td:first-child{border-top-left-radius:6px; border-bottom-left-radius:6px}
 .xp td:last-child{border-right:none; border-top-right-radius:6px; border-bottom-right-radius:6px}
+.xp td.filled{background:#22c55e}
 
-/* Fyldte felter (du ændrer bare class="filled") */
-.xp td.filled{background:#22c55e}              /* grøn standard */
-/* .xp.game-engine td.filled{background:#34d399}  /* kategori farve-eksempel */
-
-/* Teksten lige ved siden af baren */
-.xp .meta{opacity:.85; font-weight:600; margin:0; white-space:nowrap}
+/* Meta tekst lige under baren */
+.xp .meta{
+  opacity:.85; font-weight:600;
+  margin-top:.15rem;   /* meget lille luft */
+  font-size:.9rem;
+  text-align:right;    /* højrejusteret under baren */
+}
 </style>
 
 <!-- SÅDAN BRUGER DU EN BAR:
@@ -44,18 +42,15 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
      - Opdatér teksten i .meta (fx “30% (3/10)”).
      - Du kan også fjerne/tilføje farve-klasserne ovenfor pr. mål.  -->
 
-<!-- 1) FORSTÅ SPILMOTORER -->
-<div class="xp game-engine">
+<div class="xp">
   <div class="label">Mål 1 — Forstå spilmotorer</div>
   <div class="desc">Jeg kan forklare de grundlæggende principper i en spilmotor (game loop, scenes, assets, scripting, fysik, rendering) og vise det i Unity.</div>
 
-  <div class="barline">
-    <table><tr>
-      <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
-      <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
-    </tr></table>
-    <div class="meta">0% (0/10)</div>
-  </div>
+  <table><tr>
+    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+  </tr></table>
+  <div class="meta">0% (0/10)</div>
 </div>
 
 <!-- 2) BRUG AF UNITY TIL 2D -->
