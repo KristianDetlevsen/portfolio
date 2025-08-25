@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Projekt"
+permalink: /projekt/
 ---
 
 # Projekt 🦈
