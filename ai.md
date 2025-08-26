@@ -4,13 +4,13 @@ title: "AI"
 permalink: /ai/
 ---
 
-# AI og machine learning 🤖
+# AI og machine learning - mine læringsmål og progressionsbarrer 🤖
 
 _"Your scientists were so preoccupied with whether or not they could that they didn't stop to think if they should." - Dr. Ian Malcolm (Jurassic Park)_
 
-Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert mål har en enkel **progressionsbar** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt hen ad vejen og skriver et blogindlæg, når jeg rykker en bar.
+Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert mål har en enkel **progressionsbarre** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt undervejs og skriver et blogindlæg, når jeg rykker barren.
 
-> Baren for hvert mål skifter til grøn efterhånden som jeg arbejder hen imod målet 🎯
+> Barren for hvert mål skifter til grøn efterhånden som jeg arbejder hen imod målet 🎯
 
 <style>
 /* XP-bar (midnight tema) */
