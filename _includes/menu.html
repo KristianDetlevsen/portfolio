@@ -125,4 +125,14 @@
 .site-menu .menu-links .github-link:hover svg {
   opacity: 1;
 }
+
+/* Tving menuen synlig på mobil – overstyr temaets "nav ul { display:none }" */
+@media (max-width: 980px) {
+  .site-menu { display: block !important; }
+  .site-menu .menu-links { display: flex !important; }
+  .site-menu .menu-links li { display: block !important; }
+  /* valgfrit: stabl pænt og giv lidt luft */
+  .site-menu .menu-inner { padding: .6rem 1rem; }
+  .site-menu .menu-links { gap: .45rem .6rem; flex-wrap: wrap; justify-content: flex-start; }
+}
 </style>
