@@ -58,7 +58,7 @@
 </nav>
 
 <style>
-/* ===== Topmenu — Midnight-integreret ===== */
+/* ===== Topmenu — fuld bredde ===== */
 .site-menu{
   background: rgba(255,255,255,.05);
   border-bottom: 1px solid rgba(255,255,255,.08);
@@ -68,31 +68,20 @@
   max-width: 900px;
   margin: 0 auto;
   padding: .7rem 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.4rem;
 }
 
-.site-menu .brand{
-  color: #fff;
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: .2px;
-  opacity: .95;
-}
-.site-menu .brand:hover{ opacity:1; text-decoration: underline; }
-
-.site-menu .menu-links{
+.site-menu .menu-links.full {
   list-style: none;
-  margin: 0 0 0 auto;
+  margin: 0;
   padding: 0;
   display: flex;
-  gap: 1.4rem;
+  justify-content: space-between; /* fordeler links jævnt */
+  align-items: center;
+  gap: .6rem;
+  flex-wrap: wrap; /* så det bryder pænt på mobil */
 }
 
-/* Tekstlinks */
-.site-menu .menu-links a:not(.github-link){
+.site-menu .menu-links.full a:not(.github-link){
   color: #f2f2f2;
   text-decoration: none;
   font-weight: 600;
@@ -101,39 +90,32 @@
   opacity: .9;
   transition: opacity .15s ease, background-color .15s ease, box-shadow .15s ease;
 }
-.site-menu .menu-links a:not(.github-link):hover{
+.site-menu .menu-links.full a:not(.github-link):hover{
   opacity: 1;
   background: rgba(255,255,255,.06);
 }
 
-/* Aktiv side */
-.site-menu .menu-links a.active{
+.site-menu .menu-links.full a.active{
   background: rgba(34,197,94,.18);
   box-shadow: inset 0 0 0 1px rgba(34,197,94,.35);
   color: #e9fff1;
 }
 
-/* GitHub-ikon link */
-.site-menu .menu-links .github-link {
+/* GitHub-ikonet */
+.site-menu .menu-links.full .github-link {
   padding: 0;
   font-weight: normal;
   display: flex;
   align-items: center;
 }
-.site-menu .menu-links .github-link svg {
+.site-menu .menu-links.full .github-link svg {
   height: 18px;
   width: 18px;
   fill: #f2f2f2;
   opacity: .9;
   transition: opacity .15s ease;
 }
-.site-menu .menu-links .github-link:hover svg {
+.site-menu .menu-links.full .github-link:hover svg {
   opacity: 1;
-}
-
-/* Responsiv wrap */
-@media (max-width: 560px){
-  .site-menu .menu-inner{ flex-wrap: wrap; gap: .5rem .75rem; }
-  .site-menu .menu-links{ flex-wrap: wrap; gap: .5rem .6rem; }
 }
 </style>
