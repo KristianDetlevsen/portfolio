@@ -1,7 +1,12 @@
 <nav class="site-menu">
   <div class="menu-inner">
-    <a class="brand" href="{{ "/" | relative_url }}">Hjem</a>
     <ul class="menu-links">
+      <li>
+        <a href="{{ "/" | relative_url }}"
+           class="{% if page.url == '/' %}active{% endif %}">
+           Hjem
+        </a>
+      </li>
       <li>
         <a href="{{ "/spiludvikling" | relative_url }}"
            class="{% if page.url contains '/spiludvikling' %}active{% endif %}">
@@ -34,22 +39,7 @@
            title="Se mit repo på GitHub"
            class="github-link">
           <svg viewBox="0 0 16 16" aria-hidden="true">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54
-               2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
-               0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49
-               -2.69-.94-.09-.23-.48-.94-.82-1.13-.28
-               -.15-.68-.52-.01-.53.63-.01 1.08.58
-               1.23.82.72 1.21 1.87.87 2.33.66.07-.52
-               .28-.87.51-1.07-1.78-.2-3.64-.89-3.64
-               -3.95 0-.87.31-1.59.82-2.15-.08-.2
-               -.36-1.02.08-2.12 0 0 .67-.21 2.2.82
-               .64-.18 1.32-.27 2-.27.68 0 1.36.09
-               2 .27 1.53-1.04 2.2-.82 2.2-.82.44
-               1.1.16 1.92.08 2.12.51.56.82 1.27.82
-               2.15 0 3.07-1.87 3.75-3.65 3.95.29.25
-               .54.73.54 1.48 0 1.07-.01 1.93-.01
-               2.2 0 .21.15.46.55.38A8.013 8.013 0
-               0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 ..."></path>
           </svg>
         </a>
       </li>
@@ -59,18 +49,18 @@
 
 <style>
 /* ===== Topmenu — fuld bredde ===== */
-.site-menu{
+.site-menu {
   background: rgba(255,255,255,.05);
   border-bottom: 1px solid rgba(255,255,255,.08);
 }
 
-.site-menu .menu-inner{
+.site-menu .menu-inner {
   max-width: 900px;
   margin: 0 auto;
   padding: .7rem 1rem;
 }
 
-.site-menu .menu-links.full {
+.site-menu .menu-links {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -81,7 +71,8 @@
   flex-wrap: wrap; /* så det bryder pænt på mobil */
 }
 
-.site-menu .menu-links.full a:not(.github-link){
+/* Tekstlinks */
+.site-menu .menu-links a:not(.github-link) {
   color: #f2f2f2;
   text-decoration: none;
   font-weight: 600;
@@ -90,32 +81,33 @@
   opacity: .9;
   transition: opacity .15s ease, background-color .15s ease, box-shadow .15s ease;
 }
-.site-menu .menu-links.full a:not(.github-link):hover{
+.site-menu .menu-links a:not(.github-link):hover {
   opacity: 1;
   background: rgba(255,255,255,.06);
 }
 
-.site-menu .menu-links.full a.active{
+/* Aktiv side */
+.site-menu .menu-links a.active {
   background: rgba(34,197,94,.18);
   box-shadow: inset 0 0 0 1px rgba(34,197,94,.35);
   color: #e9fff1;
 }
 
 /* GitHub-ikonet */
-.site-menu .menu-links.full .github-link {
+.site-menu .menu-links .github-link {
   padding: 0;
   font-weight: normal;
   display: flex;
   align-items: center;
 }
-.site-menu .menu-links.full .github-link svg {
+.site-menu .menu-links .github-link svg {
   height: 18px;
   width: 18px;
   fill: #f2f2f2;
   opacity: .9;
   transition: opacity .15s ease;
 }
-.site-menu .menu-links.full .github-link:hover svg {
+.site-menu .menu-links .github-link:hover svg {
   opacity: 1;
 }
 </style>
