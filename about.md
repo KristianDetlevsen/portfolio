@@ -9,8 +9,10 @@ permalink: /about/
 _"All we have to decide is what to do with the time that is given us." - Gandalf (Ringenes Herre - Eventyret om Ringen)_
 
 <figure style="text-align: center;">
-  <img src="/assets/img/profile-fantasy.jpg" alt="Profilbillede" width="300" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-  <figcaption style="font-size: 0.9em; color: gray; margin-top: 6px;">
+  <img src="{{ '/assets/img/profile-fantasy.jpg' | relative_url }}"
+       alt="Profilbillede" width="300"
+       style="border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.3);">
+  <figcaption style="font-size:.9em;color:gray;margin-top:6px;margin-bottom:20px;">
     Genereret med AI 🎨
   </figcaption>
 </figure>
