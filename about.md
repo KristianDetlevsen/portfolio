@@ -6,7 +6,7 @@ permalink: /about/
 
 # Om mig 👋
 
-_"All we have to decide is what to do with the time that is given us." - Gandalf (Ringenes Herre - Eventyret om Ringen)_
+_"All we have to decide is what to do with the time that is given us." - Gandalf (The Lord of the Rings: The Fellowship of the Ring)_
 
 <figure style="text-align: center;">
   <img src="{{ '/assets/img/profile-fantasy.jpg' | relative_url }}"
@@ -24,7 +24,7 @@ Jeg interesserer mig især for:
 
 - 💻 Softwareudvikling (.NET, C#, web og databaser)
 - 🎮 Spiludvikling og design
-- 🤖 AI og Machine Learning
+- 🤖 AI og machine learning
 - 🌍 Open source, servere og selvhosting
 
 I min fritid spiller jeg meget **Minecraft** sammen med min søn,
