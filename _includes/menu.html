@@ -98,7 +98,11 @@
 
 /* Style til GitHub-ikonet */
 .site-menu .menu-links a svg {
-  display: block;
+  display: inline-block;
+  vertical-align: middle;  /* juster ikon i samme højde som tekst */
+  height: 18px;            /* lidt mindre end før */
+  width: 18px;
+  margin-top: -2px;        /* finjustering, så det sidder perfekt */
   opacity: .9;
   transition: opacity .15s ease;
 }
