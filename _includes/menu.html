@@ -6,10 +6,10 @@
              class="{% if page.url contains '/spiludvikling' %}active{% endif %}">Spiludvikling</a></li>
       <li><a href="{{ "/ai" | relative_url }}"
              class="{% if page.url contains '/ai' %}active{% endif %}">AI og Machine Learning</a></li>
-      <!-- <li><a href="{{ "/blog" | relative_url }}"
-             class="{% if page.url == '/blog/' or page.layout == 'post' %}active{% endif %}">Blog</a></li> -->
       <li><a href="{{ "/projekt" | relative_url }}"
              class="{% if page.url contains '/projekt' %}active{% endif %}">Projekt</a></li>
+      <li><a href="{{ "/about" | relative_url }}"
+             class="{% if page.url contains '/about' %}active{% endif %}">Om mig</a></li>
     </ul>
   </div>
 </nav>
