@@ -4,13 +4,13 @@ title: "Spiludvikling"
 permalink: /spiludvikling/
 ---
 
-# Spiludvikling - mine læringsmål og progressionsbarer 🕹️
+# Spiludvikling - mine læringsmål og progressionsbarrer 🕹️
 
 _"Are you not entertained? Are you not entertained? Is this not why you are here?" - Maximus Decimus Meridius (Gladiator)_
 
-Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en enkel **progressionsbar** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt hen ad vejen og skriver et blogindlæg, når jeg rykker en bar.
+Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en enkel **progressionsbar** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt hen ad vejen og skriver et blogindlæg, når jeg rykker en barre.
 
-> Baren for hvert mål skifter til grøn efterhånden som jeg arbejder hen imod målet 🎯
+> Barren for hvert mål skifter til grøn efterhånden som jeg arbejder hen imod målet 🎯
 
 <style>
 /* XP-bar (midnight tema) */
