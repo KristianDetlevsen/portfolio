@@ -2,17 +2,39 @@
   <div class="menu-inner">
     <a class="brand" href="{{ "/" | relative_url }}">Hjem</a>
     <ul class="menu-links">
-      <li><a href="{{ "/spiludvikling" | relative_url }}"
-             class="{% if page.url contains '/spiludvikling' %}active{% endif %}">Spiludvikling</a></li>
-      <li><a href="{{ "/ai" | relative_url }}"
-             class="{% if page.url contains '/ai' %}active{% endif %}">AI og Machine Learning</a></li>
-      <li><a href="{{ "/projekt" | relative_url }}"
-             class="{% if page.url contains '/projekt' %}active{% endif %}">Projekt</a></li>
-      <li><a href="{{ "/about" | relative_url }}"
-             class="{% if page.url contains '/about' %}active{% endif %}">Om mig</a></li>
-      <li><a href="https://github.com/KristianDetlevsen/portfolio" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <svg height="22" width="22" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54
+      <li>
+        <a href="{{ "/spiludvikling" | relative_url }}"
+           class="{% if page.url contains '/spiludvikling' %}active{% endif %}">
+           Spiludvikling
+        </a>
+      </li>
+      <li>
+        <a href="{{ "/ai" | relative_url }}"
+           class="{% if page.url contains '/ai' %}active{% endif %}">
+           AI og Machine Learning
+        </a>
+      </li>
+      <li>
+        <a href="{{ "/projekt" | relative_url }}"
+           class="{% if page.url contains '/projekt' %}active{% endif %}">
+           Projekt
+        </a>
+      </li>
+      <li>
+        <a href="{{ "/about" | relative_url }}"
+           class="{% if page.url contains '/about' %}active{% endif %}">
+           Om mig
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/KristianDetlevsen/portfolio"
+           target="_blank"
+           rel="noopener noreferrer"
+           aria-label="GitHub"
+           title="Se mit repo på GitHub"
+           class="github-link">
+          <svg viewBox="0 0 16 16" aria-hidden="true">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54
                2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
                0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49
                -2.69-.94-.09-.23-.48-.94-.82-1.13-.28
@@ -27,9 +49,9 @@
                2.15 0 3.07-1.87 3.75-3.65 3.95.29.25
                .54.73.54 1.48 0 1.07-.01 1.93-.01
                2.2 0 .21.15.46.55.38A8.013 8.013 0
-               0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-            </svg>
-          </a>
+               0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
       </li>
     </ul>
   </div>
@@ -69,7 +91,8 @@
   gap: 1.4rem;
 }
 
-.site-menu .menu-links a{
+/* Tekstlinks */
+.site-menu .menu-links a:not(.github-link){
   color: #f2f2f2;
   text-decoration: none;
   font-weight: 600;
@@ -78,35 +101,39 @@
   opacity: .9;
   transition: opacity .15s ease, background-color .15s ease, box-shadow .15s ease;
 }
-.site-menu .menu-links a:hover{
+.site-menu .menu-links a:not(.github-link):hover{
   opacity: 1;
   background: rgba(255,255,255,.06);
 }
 
-/* Aktiv side — grøn accent (matcher dine XP-bars) */
+/* Aktiv side */
 .site-menu .menu-links a.active{
   background: rgba(34,197,94,.18);
   box-shadow: inset 0 0 0 1px rgba(34,197,94,.35);
   color: #e9fff1;
 }
 
+/* GitHub-ikon link */
+.site-menu .menu-links .github-link {
+  padding: 0;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.site-menu .menu-links .github-link svg {
+  height: 18px;
+  width: 18px;
+  fill: #f2f2f2;
+  opacity: .9;
+  transition: opacity .15s ease;
+}
+.site-menu .menu-links .github-link:hover svg {
+  opacity: 1;
+}
+
 /* Responsiv wrap */
 @media (max-width: 560px){
   .site-menu .menu-inner{ flex-wrap: wrap; gap: .5rem .75rem; }
   .site-menu .menu-links{ flex-wrap: wrap; gap: .5rem .6rem; }
-}
-
-/* Style til GitHub-ikonet */
-.site-menu .menu-links a svg {
-  display: inline-block;
-  vertical-align: middle;  /* juster ikon i samme højde som tekst */
-  height: 18px;            /* lidt mindre end før */
-  width: 18px;
-  margin-top: -2px;        /* finjustering, så det sidder perfekt */
-  opacity: .9;
-  transition: opacity .15s ease;
-}
-.site-menu .menu-links a:hover svg {
-  opacity: 1;
 }
 </style>
