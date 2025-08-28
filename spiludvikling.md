@@ -58,7 +58,7 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="label">Mål 2 — Brug af Unity til 2D</div>
   <div class="desc">Jeg kan opsætte en 2D-scene i Unity med sprites, physics (Rigidbody2D + Collider2D) og en spilbar figur med inputstyring.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
   <div class="meta">0% (0/10)</div>
@@ -152,4 +152,17 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="meta">0% (0/10)</div>
 </div>
 
-# Spiludvikling - dokumentation 📚
+<!-- 11) DOKUMENTATION -->
+<div class="xp">
+  <div class="label">Mål 11 — Dokumentation</div>
+  <div class="desc">Jeg kan udarbejde og vedligeholde centrale dokumenter til spiludvikling, herunder GDD (Game Design Document), TDD (Technical Design Document) og MDD (Map/Level Design Document), og bruge dem aktivt i samarbejdet.</div>
+  <table><tr>
+    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+  </tr></table>
+  <div class="meta">20% (2/10)</div>
+</div>
+
+## Spiludvikling - dokumentation 📚
+
+Her vil jeg i fremtiden uploade en pdf med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget.
