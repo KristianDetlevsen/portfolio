@@ -61,7 +61,7 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
     <td class="filled"></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">10% (1/10)</div>
 </div>
 
 <!-- 3) GOD KODE & ARKITEKTUR -->
