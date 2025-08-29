@@ -107,6 +107,17 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="meta">0% (0/10)</div>
 </div>
 
+<!-- 7) IMPLIKATIONER AF AI -->
+<div class="xp">
+  <div class="label">Mål 7 — Implikationer af AI</div>
+  <div class="desc">Jeg kan reflektere over de samfundsmæssige, organisatoriske og personlige implikationer ved at anvende AI (fx ændringer i arbejdsprocesser, kompetencekrav, autenticitet, kreativitet, afhængighed af leverandører) og diskutere mindst 2 fordele og 2 udfordringer i en relevant case.</div>
+  <table><tr>
+    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+  </tr></table>
+  <div class="meta">0% (0/10)</div>
+</div>
+
 ## AI - dokumentation 📚
 
 Her vil jeg i fremtiden uploade en pdf med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget.
