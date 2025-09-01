@@ -163,6 +163,10 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="meta">20% (2/10)</div>
 </div>
 
+<hr>
+
 ## Spiludvikling - dokumentation 📚
 
-Her vil jeg i fremtiden uploade en pdf med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget.
+Herunder findes en PDF med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget. PDF'en bliver løbende opdateret.
+
+[📄 Åbn dokumentation (PDF)](/assets/pdfs/Spiludvikling_dokumentation.pdf){:target="_blank"}
