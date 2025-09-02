@@ -52,10 +52,10 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="meta">0% (0/10)</div>
 </div>
 
-<!-- 2) PRAKTISK ML-MODEL (PYTHON) -->
+<!-- 2) PRAKTISK ML-MODEL (C#) -->
 <div class="xp">
-  <div class="label">Mål 2 — Praktisk ML-model (Python)</div>
-  <div class="desc">Jeg kan indsamle og forbehandle et datasæt samt træne og evaluere en simpel klassifikations- eller regressionsmodel i scikit-learn (fx accuracy, RMSE, confusion matrix).</div>
+  <div class="label">Mål 2 — Praktisk ML-model (C#)</div>
+  <div class="desc">Jeg kan indsamle og forbehandle et datasæt (fx tekstbaserede brugernavne) samt træne og evaluere en simpel klassifikations- eller regressionsmodel i ML.NET (fx accuracy, precision/recall, confusion matrix).</div>
   <table><tr>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
@@ -65,8 +65,8 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
 
 <!-- 3) INTEGRATION AF AI-SERVICE -->
 <div class="xp">
-  <div class="label">Mål 3 — Integrere AI-service</div>
-  <div class="desc">Jeg kan bygge en lille app (web eller konsol), der kalder en ekstern AI-service (fx Azure Cognitive Services eller OpenAI API) og demonstrerer input → service → output.</div>
+  <div class="label">Mål 3 — Integrere AI-service (OpenAI)</div>
+  <div class="desc">Jeg kan bygge en lille app (web eller konsol i C#), der kalder OpenAI’s API og demonstrerer et flow fra input → service → output.</div>
   <table><tr>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
@@ -117,6 +117,8 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   </tr></table>
   <div class="meta">0% (0/10)</div>
 </div>
+
+<hr>
 
 ## AI - dokumentation 📚
 
