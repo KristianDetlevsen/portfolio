@@ -160,7 +160,7 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
     <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">40% (2/10)</div>
+  <div class="meta">40% (4/10)</div>
 </div>
 
 <hr>
