@@ -46,10 +46,10 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="label">Mål 1 — Grundlæggende AI/ML</div>
   <div class="desc">Jeg kan forklare forskellen på AI, Machine Learning og Deep Learning, og nævne mindst 3 typiske algoritmer og deres anvendelser.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">20% (2/10)</div>
 </div>
 
 <!-- 2) PRAKTISK ML-MODEL (C#) -->
