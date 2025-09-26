@@ -47,10 +47,10 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="desc">Jeg kan forklare de grundlæggende principper i en spilmotor (game loop, scenes, assets, scripting, fysik, rendering) og vise det i Unity.</div>
 
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">10% (1/10)</div>
 </div>
 
 <!-- 2) BRUG AF UNITY TIL 2D -->
@@ -160,7 +160,7 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
     <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">40% (4/10)</div>
+  <div class="meta">50% (5/10)</div>
 </div>
 
 <hr>
@@ -169,4 +169,4 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
 
 Herunder findes en PDF med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget. PDF'en bliver løbende opdateret.
 
-[📄 Åbn dokumentation (PDF)](/assets/pdfs/Spiludvikling_dokumentation.pdf){:target="_blank"}
+[📄 Åbn dokumentation (PDF)](/assets/pdfs/Spiludvikling_dokumentation.pdf){:target="\_blank"}

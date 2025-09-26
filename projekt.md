@@ -18,4 +18,6 @@ Gram Lergrav ønsker et spil, som skal kunne spilles af besøgende i alle alders
 
 Dokumentationen vil løbende blive opdateret efterhånden som projektet skrider frem.
 
-[📄 Åbn Game Design Document (PDF)](/assets/pdfs/GDD_Mega-Eater_version1_0.pdf){:target="_blank"}
+[📄 Åbn Game Design Document (PDF)](/assets/pdfs/GDD_version1_1.pdf){:target="\_blank"}
+
+[📄 Åbn Technical Design Document (PDF)](/assets/pdfs/TDD.pdf){:target="\_blank"}

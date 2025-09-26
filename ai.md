@@ -46,10 +46,10 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="label">Mål 1 — Grundlæggende AI/ML</div>
   <div class="desc">Jeg kan forklare forskellen på AI, Machine Learning og Deep Learning, og nævne mindst 3 typiske algoritmer og deres anvendelser.</div>
   <table><tr>
-    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">20% (2/10)</div>
+  <div class="meta">30% (3/10)</div>
 </div>
 
 <!-- 2) PRAKTISK ML-MODEL (C#) -->
@@ -57,10 +57,10 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="label">Mål 2 — Praktisk ML-model (C#)</div>
   <div class="desc">Jeg kan indsamle og forbehandle et datasæt (fx tekstbaserede brugernavne) samt træne og evaluere en simpel klassifikations- eller regressionsmodel i ML.NET (fx accuracy, precision/recall, confusion matrix).</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">30% (3/10)</div>
 </div>
 
 <!-- 3) INTEGRATION AF AI-SERVICE -->
@@ -122,4 +122,6 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
 
 ## AI - dokumentation 📚
 
-Her vil jeg i fremtiden uploade en pdf med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget.
+Herunder findes en PDF med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget. PDF'en bliver løbende opdateret.
+
+[📄 Åbn dokumentation (PDF)](/assets/pdfs/AI_dokumentation.pdf){:target="\_blank"}
