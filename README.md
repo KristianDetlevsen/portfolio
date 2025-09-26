@@ -6,7 +6,7 @@ Siden er bygget med **GitHub Pages** og **Jekyll**.
 ## Indhold
 - ✨ Forside med kort præsentation og en top menu til at vælge mellem indhold på sitet
 - 📝 Blog med løbende refleksioner og noter (findes på forsiden)
-- 🕹️ Læringsmål med tilhørende progressionsbarrer for begge mine valgfag
+- 🕹️ Læringsmål med tilhørende progressionsbarer for begge mine valgfag
 - 🦈 Projektbeskrivelse
 - 🙋‍♂️ "Om mig"-side med profilbillede og intro
 
