@@ -47,10 +47,10 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="desc">Jeg kan forklare de grundlæggende principper i en spilmotor (game loop, scenes, assets, scripting, fysik, rendering) og vise det i Unity.</div>
 
   <table><tr>
-    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
+    <td class="filled"></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">20% (2/10)</div>
+  <div class="meta">60% (6/10)</div>
 </div>
 
 <!-- 2) BRUG AF UNITY TIL 2D -->
@@ -58,10 +58,10 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="label">Mål 2 — Brug af Unity til 2D</div>
   <div class="desc">Jeg kan opsætte en 2D-scene i Unity med sprites, physics (Rigidbody2D + Collider2D) og en spilbar figur med inputstyring.</div>
   <table><tr>
-    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
+    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">30% (3/10)</div>
+  <div class="meta">70% (7/10)</div>
 </div>
 
 <!-- 3) GOD KODE & ARKITEKTUR -->
@@ -69,10 +69,10 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="label">Mål 3 — God kode & arkitektur</div>
   <div class="desc">Jeg kan strukturere projektet i mapper, bruge prefabs/ScriptableObjects, følge C#-konventioner og lave ≥5 enhedstests der kører uden fejl.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">20% (2/10)</div>
 </div>
 
 <!-- 4) SPILHISTORIE -->
@@ -135,10 +135,10 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="label">Mål 9 — Samarbejde & produktion</div>
   <div class="desc">Jeg deltager aktivt i gruppens Git-workflow, laver meningsfulde commits og deltager i ugentlige demoer.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">20% (2/10)</div>
 </div>
 
 <!-- 10) TEST & RELEASE -->
@@ -158,9 +158,9 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="desc">Jeg kan udarbejde og vedligeholde centrale dokumenter til spiludvikling, herunder GDD (Game Design Document), TDD (Technical Design Document) og MDD (Map/Level Design Document), og bruge dem aktivt i samarbejdet.</div>
   <table><tr>
     <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">50% (5/10)</div>
+  <div class="meta">60% (6/10)</div>
 </div>
 
 <hr>
