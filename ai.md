@@ -117,11 +117,3 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   </tr></table>
   <div class="meta">0% (0/10)</div>
 </div>
-
-<hr>
-
-## AI - dokumentation 📚
-
-Herunder findes en PDF med de forskellige kurser, artikler o.l. jeg har anvendt i valgfaget. PDF'en bliver løbende opdateret.
-
-[📄 Åbn dokumentation (PDF)](/assets/pdfs/AI_dokumentation.pdf){:target="\_blank"}
