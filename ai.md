@@ -83,7 +83,7 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="meta">100% (10/10)</div>
 </div>
 
-> Her er et link til mit miniprojekt, som jeg er ret stolt af: [ClaudeQuestions projekt](https://github.com/KristianDetlevsen/ClaudeQuestions)
+> Her er et link til mit miniprojekt, som jeg er ret stolt af: [ClaudeQuestions projekt](https://github.com/KristianDetlevsen/ClaudeQuestions){:target="\_blank"}
 
 <!-- 4) AI I VIRKSOMHEDER (CASE) -->
 <div class="xp">
@@ -96,7 +96,7 @@ Her samler jeg alle mine mål for valgfaget **AI og machine learning**. Hvert m�
   <div class="meta">50% (5/10)</div>
 </div>
 
-> I projektet Mega-Eater anvender vi machine learning til at bestemme hvorvidt et indtastet brugernavn er upassende. Det er en interessant proces, som gør spillet ekstra interessant og interaktivt for spilleren, men det er værd at overveje, om det ikke er mere sikkert bare at lade spilleren vælge en kombination af præfabrikerede navne som f.eks. "Awesome Shark".
+> I projektet Mega-Eater anvender vi machine learning til at bestemme hvorvidt et indtastet brugernavn er upassende. Det er en interessant proces, som gør spillet mere interaktivt for spilleren, men det er værd at overveje, om det ikke er mere sikkert bare at lade spilleren vælge en kombination af præfabrikerede navne som f.eks. "Awesome Shark".
 
 <!-- 5) MLOPS-LIGHT -->
 <div class="xp">
