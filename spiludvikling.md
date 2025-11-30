@@ -11,7 +11,8 @@ _"Are you not entertained? Are you not entertained? Is this not why you are here
 Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en enkel **progressionsbar** med 10 felter (0–10 = 0–100%). Jeg opdaterer felterne manuelt undervejs og skriver et blogindlæg, når jeg rykker baren.
 
 > Baren for hvert mål skifter til grøn efterhånden som jeg arbejder hen imod målet 🎯
-> Under hver bar har jeg desuden lagt dokumentation i form af et billede eller kort tekst 📄
+
+> Under hver bar har jeg desuden lagt dokumentation i form af et billede eller en kort tekst 📄
 
 <style>
 /* XP-bar (midnight tema) */
@@ -171,7 +172,7 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
 </div>
 
 <figure style="text-align: center;">
-    <img src="{{ '/assets/img/MegalodonObject.png' | relative_url }}" alt="Screenshot fra Unity, der viser et game object med components" width="400">
+    <img src="{{ '/assets/img/DirtyMerge.png' | relative_url }}" alt="Screenshot fra Unity, der viser et game object med components" width="400">
     <figcaption>Her ses et eksempel fra vores workflow, hvor jeg har merged en branch til "development". Ironisk nok har jeg benyttet en såkaldt "dirty merge", da det skulle gå lidt tjept</figcaption>
 </figure>
 
@@ -186,7 +187,7 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="meta">40% (4/10)</div>
 </div>
 
-> Som nævnt tidligere fik vi ikke testet optimalt, men vi fik lavet et færdigt build, som blev givet til og præsenteret for PO.
+> Som nævnt tidligere fik vi ikke testet optimalt, men vi fik lavet et færdigt build, som blev præsenteret for PO og overdraget på en USB-nøgle.
 
 <!-- 11) DOKUMENTATION -->
 <div class="xp">
