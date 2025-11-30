@@ -109,49 +109,47 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="label">Mål 5 — Gameplay & level design</div>
   <div class="desc">Jeg kan designe mindst 2 baner, der introducerer udfordringer trinvis, teste dem med 2–3 personer og forbedre designet via feedback.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">50% (5/10)</div>
 </div>
+
+> Vi har primært designet én bane baseret på feedback fra PO. Banen er dog meget enkel og indeholder ikke klassiske spilelementer som fjender, platforme o.l.
 
 <!-- 6) GRAFIK, LYD & LYS -->
 <div class="xp">
   <div class="label">Mål 6 — Grafik, lyd & lys</div>
   <div class="desc">Jeg kan integrere grafik, lyd og lys, så de matcher spillets tema: ≥3 SFX, baggrundsmusik og simple 2D-lys for stemning og læsbarhed.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">30% (3/10)</div>
 </div>
+
+<figure style="text-align: center;">
+    <img src="{{ '/assets/img/UranocetusGramensisSprite.png' | relative_url }}" alt="Hvalen Uranocetus Gramensis lavet som pixel art sprite" width="400">
+    <figcaption>Her ses en pixel art sprite, der forestiller hvalen Uranocetus Gramensis. Jeg har selv tegnet den i programmet Aseprite ud fra dokumentation fra PO. Jeg nåede ikke at få implementeret hverken lyd eller lys i spillet!</figcaption>
+</figure>
 
 <!-- 7) ENGAGEMENT & FASTHOLDELSE -->
 <div class="xp">
   <div class="label">Mål 7 — Engagement & fastholdelse</div>
   <div class="desc">Jeg designer en tydelig core loop (fx “udforsk → kæmp → belønning → videre”), indbygger progression og tester med ≥2 spillere og tilpasser.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">50% (5/10)</div>
 </div>
+
+> Vi har fra starten lagt meget vægt på core loop, hvilket er dokumenteret i vores Game Design Document, som findes under "Projekt" øverst. Desværre har vi ikke fået testet ordentligt med slutbrugerne.
 
 <!-- 8) PERFORMANCE -->
 <div class="xp">
   <div class="label">Mål 8 — Performance</div>
   <div class="desc">Jeg kan måle i Unity Profiler og sikre ~60 FPS i en testscene.</div>
-  <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
-  </tr></table>
-  <div class="meta">0% (0/10)</div>
-</div>
-
-<!-- 9) SAMARBEJDE & PRODUKTION -->
-<div class="xp">
-  <div class="label">Mål 9 — Samarbejde & produktion</div>
-  <div class="desc">Jeg deltager aktivt i gruppens Git-workflow, laver meningsfulde commits og deltager i ugentlige demoer.</div>
   <table><tr>
     <td class="filled"></td><td class="filled"></td><td class=""></td><td class=""></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
@@ -159,16 +157,36 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="meta">20% (2/10)</div>
 </div>
 
+> Jeg har ikke nået at arbejde med performance i dybden. Vi har dog i teamet haft gode diskussioner omkring optimal brug af Update()-metoden.
+
+<!-- 9) SAMARBEJDE & PRODUKTION -->
+<div class="xp">
+  <div class="label">Mål 9 — Samarbejde & produktion</div>
+  <div class="desc">Jeg deltager aktivt i gruppens Git-workflow, laver meningsfulde commits og deltager i ugentlige demoer.</div>
+  <table><tr>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td>
+  </tr></table>
+  <div class="meta">90% (9/10)</div>
+</div>
+
+<figure style="text-align: center;">
+    <img src="{{ '/assets/img/MegalodonObject.png' | relative_url }}" alt="Screenshot fra Unity, der viser et game object med components" width="400">
+    <figcaption>Her ses et eksempel fra vores workflow, hvor jeg har merged en branch til "development". Ironisk nok har jeg benyttet en såkaldt "dirty merge", da det skulle gå lidt tjept</figcaption>
+</figure>
+
 <!-- 10) TEST & RELEASE -->
 <div class="xp">
   <div class="label">Mål 10 — Test & release</div>
   <div class="desc">Jeg planlægger og gennemfører en playtest (≥2 personer uden for gruppen) og laver en færdig build (fx Windows/WebGL) med README og credits.</div>
   <table><tr>
-    <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class=""></td>
     <td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
   </tr></table>
-  <div class="meta">0% (0/10)</div>
+  <div class="meta">40% (4/10)</div>
 </div>
+
+> Som nævnt tidligere fik vi ikke testet optimalt, men vi fik lavet et færdigt build, som blev givet til og præsenteret for PO.
 
 <!-- 11) DOKUMENTATION -->
 <div class="xp">
@@ -176,7 +194,9 @@ Her samler jeg alle mine mål for valgfaget **Spiludvikling**. Hvert mål har en
   <div class="desc">Jeg kan udarbejde og vedligeholde centrale dokumenter til spiludvikling, herunder GDD (Game Design Document), TDD (Technical Design Document) og MDD (Map/Level Design Document), og bruge dem aktivt i samarbejdet.</div>
   <table><tr>
     <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
-    <td class="filled"></td><td class=""></td><td class=""></td><td class=""></td><td class=""></td>
+    <td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td><td class="filled"></td>
   </tr></table>
   <div class="meta">60% (6/10)</div>
 </div>
+
+> Dokumentationen findes under "Projekt" øverst.
